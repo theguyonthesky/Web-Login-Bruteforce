@@ -40,3 +40,21 @@ Linux (Kali) – Typical environment for running hash-cracking tools.
 `brute_force_login.py`: Main Python script that performs the brute-force attack.
 
 `rockyou.txt`: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
+
+# How to Run
+1. Clone or download this repository
+2. Install the libraries: pip install requests (sys doesn't need to be installed, it's part of Python's standard library)
+3. Place your wordlist file in the same directory as the script, or update the file path in the code.
+4. Run the script using one of the following methods:
+   - Terminal (macOS/Linux): 'python3 brute_force_login.py'
+   - Windows (or IDEs like VS Code, PyCharm): 'python brute_force_login.py' or use the Run button
+
+# Disclaimer
+This project is created for research, ethical hacking, and educational purposes only. Unauthorized access to computer systems is illegal. Always ensure you have explicit permission before testing any systems. The developer is not responsible for any misuse of this code.
+
+# Contribution and Feedback
+Contributions, feedback, and issues can be submitted via the GitHub repository. Ensure that your interactions adhere to the GitHub Community Guidelines to maintain a respectful and collaborative environment.
+
+# License
+This project is licensed under the MIT License. Feel free to use or modify it for personal use or learning.
+<br>**Stay safe and have fun! 😊**
