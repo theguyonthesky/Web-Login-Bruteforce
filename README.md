@@ -26,3 +26,17 @@ This is a Python-based brute-force attack tool designed to test multiple usernam
 5. If the response contains the success message (Welcome back), the script reports the valid credentials and exits.
 
 6. If no valid password is found for a username, it notifies and moves on to the next one.
+
+# Tools and Technologies Used
+Python – Main programming language.
+
+`sys` – Used for output handling and termination.
+
+`requests` – For sending HTTP POST requests.
+
+Linux (Kali) – Typical environment for running hash-cracking tools.
+
+# Files
+`brute_force_login.py`: Main Python script that performs the brute-force attack.
+
+`rockyou.txt`: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
