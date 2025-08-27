@@ -18,7 +18,7 @@ This is a Python-based brute-force attack tool designed to test multiple usernam
 
 2. A list of usernames is iterated over, and for each username:
 
-3. It opens the wordlist (rockyou.txt) and reads passwords line by line.
+3. It opens the wordlist (`rockyou.txt`) and reads passwords line by line.
    - For each password, it strips any trailing newline characters and encodes the password.
 
 4. A POST request is sent to the target with the username and password.
