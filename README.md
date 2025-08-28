@@ -17,15 +17,14 @@ This is a Python-based brute-force attack tool designed to test multiple usernam
 1. The script targets a local web server (default: http://127.0.0.1:5000).
 
 2. A list of usernames is iterated over, and for each username:
-
-3. It opens the wordlist (`rockyou.txt`) and reads passwords line by line.
+   - It opens the wordlist (`rockyou.txt`) and reads passwords line by line.
    - For each password, it strips any trailing newline characters and encodes the password.
 
-4. A POST request is sent to the target with the username and password.
+3. A POST request is sent to the target with the username and password.
 
-5. If the response contains the success message (Welcome back), the script reports the valid credentials and exits.
+4. If the response contains the success message (Welcome back), the script reports the valid credentials and exits.
 
-6. If no valid password is found for a username, it notifies and moves on to the next one.
+5. If no valid password is found for a username, it notifies and moves on to the next one.
 
 # Tools and Technologies Used
 Python – Main programming language.
