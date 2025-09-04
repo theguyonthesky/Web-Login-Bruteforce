@@ -23,7 +23,6 @@ for username in usernames:
 		sys.stdout.write("\n")
 
 
-
 #Note:
 #Buffer = temporary memory (in RAM) that holds output before showing on screen (doesnt store data)
 #flush() = forces output to appear immediately (clears buffer to terminal)
