@@ -29,6 +29,8 @@ This is a Python-based brute-force attack tool designed to test multiple usernam
 # Tools and Technologies Used
 Python – Main programming language.
 
+Web Login Endpoint – The script requires a web application with a functional login form to target.
+
 `sys` – Used for output handling and termination.
 
 `requests` – For sending HTTP POST requests.
